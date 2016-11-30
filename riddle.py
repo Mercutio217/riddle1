@@ -19,7 +19,7 @@ for i in (rig):
     else:
         i = alpha_list[-alpha_list.index(i) - 1]
         fin_list.append(i)
-        
+
 rij = ("".join(fin_list))
 
 print(rij)
